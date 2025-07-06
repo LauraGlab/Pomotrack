@@ -1,0 +1,116 @@
+.windowDelete{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 370px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.deleteIconSection{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.deleteSvg{
+  align-items: center;
+  border: 2px solid var(--fontColor);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: center;
+  padding: 10px;
+  width: 50px;
+}
+
+.deleteIcon path{
+ fill: var(--fontColor);
+}
+
+.deleteText{
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.deleteTaskInfo{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 150px;
+}
+
+.deleteCategory{
+  height: 60px;
+  width: 60px;
+}
+
+.deleteTitle{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.infoDeleteSection{
+  align-items: center;
+  column-gap: 0.5rem;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  font-size: 15px;
+  padding-bottom: 0.5rem;
+}
+
+.infoDeleteSvg path{
+  stroke: var(--svg-color);
+}
+
+.infoDeleteSvg circle{
+  stroke: var(--svg-color);
+}
+
+.deleteWindowBtn__section{
+  align-items: center;
+  column-gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.deleteWindowBtn{
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+  padding: 1rem 1.5rem;
+}
+
+@media(min-width: 768px){
+  .windowDelete{
+    height: auto;
+    max-width: none;
+    padding: 2rem;
+  }
+
+  .deleteSvg{
+    height: 60px;
+    width: 60px;
+  }
+
+  .deleteIcon{
+    height: 30px;
+    width: 30px;
+  }
+
+  .deleteText{
+    font-size: 18px;
+    padding-top: 1rem;
+  }
+}

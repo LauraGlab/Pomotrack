@@ -1,0 +1,44 @@
+.todoMenu {
+  align-items: center;
+  background: var(--background);
+  border: 1px solid var(--fontColor);
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 3px 6px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0;
+  position: absolute;
+  right: 8%;
+  top: 37px;
+  width: 155px;
+}
+
+.todoMenuBtn {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  display: grid;
+  font-size: 13px;
+  grid-template-columns: 20% 80%;
+  justify-content: center;
+  outline: none;
+  padding: 1rem 0 1rem 1.3rem;
+  text-align: left;
+  transition: 0.4s ease-in;
+  width: 100%;
+}
+
+.todoMenuBtn:hover{
+  background-color: var(--bckgr-second);
+}
+
+.todoMenuIcon{
+  fill: var(--fontColor);
+}
+
+.todoMenuBtn p{
+  text-align: left;
+  width: 80%;
+}
