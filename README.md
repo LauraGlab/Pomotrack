@@ -6,9 +6,9 @@
 - [About the Project](#about-the-project)  
 - [Features](#features)  
 - [How It Works](#how-it-works)  
-- [Why PomoTrack?](#why-pomotrack)  
-- [Built With](#built-with)  
-- [License](#license)   
+- [Why PomoTrack?](#why-pomotrack)
+- [License](#license) 
+- [Built With](#built-with)    
 
 ## About the Project  
 **PomoTrack** is a powerful productivity app that blends the **Pomodoro Technique** with a fully featured **To-Do list**, helping you manage time, focus better, and accomplish tasks efficiently.  
@@ -62,6 +62,10 @@ Stay focused, reduce burnout, and **work smarter**, not harder.
 - 🔊 **Audio Integration** – White/pink/brown noise for productivity  
 - 📱 **Media Queries** – Responsive design for all devices  
 
+## License  
+
+[![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 ## 🚀 Get Started Today  
 Clone the repo, run it locally, and start mastering your time:
 
@@ -70,7 +74,3 @@ git clone https://github.com/LauraGlab/pomotrack.git
 cd pomotrack  
 npm install 
 npm run dev
-
-## License  
-
-[![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
