@@ -77,7 +77,7 @@ export default function SettingsTheme({ onClose }) {
             className="themeBtn"
             id="pomodoro"
             style={{
-              backgroundColor: themes[selectedPomodoroTheme].background,
+              backgroundColor: themes[pomodoroThemeName].background,
             }}
             onClick={() => toggleMenu("pomodoro")}
           ></button>
@@ -121,7 +121,7 @@ export default function SettingsTheme({ onClose }) {
             className="themeBtn"
             id="shortBreak"
             style={{
-              backgroundColor: themes[selectedShortBreakTheme].background,
+              backgroundColor: themes[shortBreakThemeName].background,
             }}
             onClick={() => toggleMenu("shortBreak")}
           ></button>
@@ -151,7 +151,7 @@ export default function SettingsTheme({ onClose }) {
                           backgroundColor: themes[theme].background,
                           color: themes[theme].fontColor,
                           border:
-                            pomodoroThemeName === theme
+                            shortBreakThemeName === theme
                               ? `3px solid ${themes[theme].fontColor}`
                               : "3px solid transparent",
                         }}
@@ -167,7 +167,7 @@ export default function SettingsTheme({ onClose }) {
             className="themeBtn"
             id="longBreak"
             style={{
-              backgroundColor: themes[selectedLongBreakTheme].background,
+              backgroundColor: themes[longBreakThemeName].background,
             }}
             onClick={() => toggleMenu("longBreak")}
           ></button>
@@ -197,7 +197,7 @@ export default function SettingsTheme({ onClose }) {
                           backgroundColor: themes[theme].background,
                           color: themes[theme].fontColor,
                           border:
-                            pomodoroThemeName === theme
+                            longBreakThemeName === theme
                               ? `3px solid ${themes[theme].fontColor}`
                               : "3px solid transparent",
                         }}
