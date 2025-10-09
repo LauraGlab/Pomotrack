@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footerText">
         <p>
           Designed and Coded by
-          <a className="footerLink" href="#">
+          <a className="footerLink" href="https://laura-glab.vercel.app/#/">
             Laura Głąb
           </a>
         </p>
@@ -14,3 +14,4 @@ export default function Footer() {
     </footer>
   );
 }
+
