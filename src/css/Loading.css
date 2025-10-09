@@ -9,31 +9,19 @@
 }
 
 .logoLoader{
-  margin-bottom: 1rem;
   width: 50px;
   z-index: 999;
 }
 
 .loader {
   animation: loading 1s linear infinite alternate;
-  color: #CAC8C3;
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.loader:before {
-  content:"Loading..."
 }
 
 @media(min-width: 768px){
   .logoLoader{
     width: 90px;
   }
-
-  .loader {
-    font-size: 30px;
-  }
 }
+
 
 @keyframes loading {to{opacity: 0}}
