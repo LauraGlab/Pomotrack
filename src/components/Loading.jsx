@@ -4,9 +4,8 @@ import "./../css/Loading.css";
 export default function Loading() {
   return (
     <div className="loadingPage">
-      <img className="logoLoader" src={TomatoLogo} />
-      <div className="loader">
-      </div>
+      <img className="logoLoader loader" src={TomatoLogo} />
     </div>
   );
 }
+
