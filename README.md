@@ -1,76 +1,118 @@
-# ⏱️ PomoTrack – Stay Focused, Get Things Done
+# PomoTrack – Stay Focused, Get Things Done
 
-![PomoTrack Readme](public/pomotrackReadme.png)
+![PomoTrack Readme](public/1.png)
 
 ## 📚 Table of Contents  
 - [About the Project](#about-the-project)  
 - [Features](#features)  
+- [Design & Branding](#design--branding)
 - [How It Works](#how-it-works)  
 - [Why PomoTrack?](#why-pomotrack)
-- [License](#license) 
 - [Built With](#built-with)    
+- [License](#license)  
 
-## About the Project  
-**PomoTrack** is a powerful productivity app that blends the **Pomodoro Technique** with a fully featured **To-Do list**, helping you manage time, focus better, and accomplish tasks efficiently.  
-Created to support structured workflows and mindful breaks, this app allows users to tailor their productivity rhythm while tracking progress and maintaining task clarity.
+---
 
-## Features  
+## 🧠 About the Project  
+**PomoTrack** is a productivity web app that blends the **Pomodoro Technique** with a structured **To-Do list**, helping you balance focus and rest.  
+Created to promote mindful work sessions, this app allows users to **personalize their workflow**, track time, and stay consistent through visual feedback and dynamic design.
+
+---
+
+## ✨ Features  
+
 ### ⏳ **Pomodoro Timer Modes**  
-- 3 modes: **Productive Time**, **Short Break**, **Long Break**  
-- Customizable durations for each mode  
-- Theme changes dynamically based on the current mode  
-- Ambient **focus sounds** (e.g., white noise) for deeper concentration  
+- 3 customizable modes: **Focus**, **Short Break**, **Long Break**  
+- Smooth transitions and real-time updates  
+- Ambient focus sounds for deep concentration  
 
 ### 📝 **Smart To-Do List**  
-- Add tasks with **categories** (6 available)  
-- Assign **priority levels**: Low, Medium, High  
-- Edit tasks at any time  
-- Delete tasks individually, by status (e.g., done only), or clear all  
+- Add, edit, and categorize tasks  
+- Prioritize work by urgency (Low / Medium / High)  
+- Delete completed or all tasks at once  
 
-### 📈 **Productivity Insights**  
-- **Time tracker**: Monitor how long you've stayed productive  
-- **Date-based logs** for better reflection  
-- Track the **number of completed tasks**  
+### 📊 **Productivity Insights**  
+- Track **total focus time** and **completed tasks**  
+- View logs by day for better reflection  
 
-### 🌓 **Dark Mode Support**  
-- Automatically applies dark/light themes depending on time of day or mode  
-- Enhances visual comfort for long sessions  
+### 🌓 **Dark / Light Mode**  
+- Theme adjusts automatically or manually  
+- Colors shift dynamically with Pomodoro phases  
 
 ### 📱 **Responsive Design**  
-- Fully responsive layout with **media queries**  
-- Optimized for **desktops**, **tablets**, and **mobile devices**  
-- Seamless experience across all screen sizes  
+- Optimized for **desktop**, **tablet**, and **mobile**  
+- Fluid, component-based layout  
 
-## How It Works  
-1. **Set Your Timer**: Choose between productive mode or a break. Customize durations if needed.  
-2. **Manage Your Tasks**: Add tasks with relevant categories and priorities.  
-3. **Track Your Flow**: Use the timer and ambient sounds to stay in the zone.  
-4. **Review Progress**: Check how many tasks you completed and how much time you spent working.
+---
 
-## Why PomoTrack?  
-While many Pomodoro apps exist, **PomoTrack** stands out with its deep **task integration**, user-centric **customization**, and sleek, dynamic **UI**. Whether you're a student, freelancer, or full-time worker, this tool gives you full control over your time and tasks — all in one place.
+## 🎨 Design & Branding  
 
-Stay focused, reduce burnout, and **work smarter**, not harder.
+![PomoTrack Readme](public/3.png)
+
+PomoTrack’s branding is based on a **calm yet energetic palette** that reflects different states of focus and rest.  
+Each mode uses distinct colors and font contrast to help users **visually feel their workflow**.
+
+| Mode | Background | Font Color |
+|------|-------------|------------|
+| Focus | `#871B2B` (red) | `#CAC8C3` |
+| Deep Work | `#201E1F` (black) | `#B493A0` |
+| Calm | `#F7CADF` (pink) | `#DC4F50` |
+| Reflect | `#7CA9CE` (blue) | `#FBFBFB` |
+| Neutral | `#F5E9D7` (beige) | `#63694C` |
+
+### 🖋️ Typography
+- **Albert Sans** – clean, geometric, and humanist, used for primary UI and buttons.  
+- **Barlow** – versatile sans-serif for headings and labels.  
+- **Chivo Mono** – used in the timer display and coding-inspired components for contrast.
+
+---
+
+### 📸 UI Showcase  
+
+![PomoTrack Readme](public/2.png)
+![PomoTrack Readme](public/4.png)
+![PomoTrack Readme](public/5.png)
+![PomoTrack Readme](public/6.png)
+
+---
+
+## ⚙️ How It Works  
+1. **Set Your Timer** — Choose Focus or Break mode.  
+2. **Manage Tasks** — Add and prioritize tasks.  
+3. **Track Progress** — View logs and stats.  
+4. **Stay Consistent** — Let the design and sound guide your rhythm.
+
+---
+
+## 💡 Why PomoTrack?  
+Unlike generic Pomodoro apps, **PomoTrack** merges time tracking, task management, and UX design principles into one minimalist interface.  
+Every color, font, and animation is meant to reduce cognitive load and enhance focus — **form meets function**.
+
+---
 
 ## 🛠️ Built With  
 
-- ⚛️ [**React**](https://reactjs.org/) – Fast, modern UI  
-- ⚡ [**Vite**](https://vitejs.dev/) – Lightning-fast development  
-- 🎨 **CSS Modules** – Scoped styling per component  
-- 🧠 **Custom Hooks** – Clean, modular state management  
+- ⚛️ [**React**](https://reactjs.org/) – Component-based UI  
+- ⚡ [**Vite**](https://vitejs.dev/) – Fast build tool  
+- 🎨 **CSS Modules** – Scoped, maintainable styling  
+- 🧠 **Custom React Hooks** – Reusable logic for timer and tasks  
 - 💾 **LocalStorage** – Persistent data without backend  
-- 🔊 **Audio Integration** – White/pink/brown noise for productivity  
-- 📱 **Media Queries** – Responsive design for all devices  
+- 🔊 **Audio Integration** – Ambient focus sounds  
+- 📱 **Media Queries** – Responsive design  
 
-## License  
+---
+
+## 🧾 License  
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-## 🚀 Get Started Today  
-Clone the repo, run it locally, and start mastering your time:
+---
+
+## 🚀 Get Started  
+Clone the repository and start focusing smarter:  
 
 ```bash
-git clone https://github.com/LauraGlab/pomotrack.git 
-cd pomotrack  
-npm install 
+git clone https://github.com/yourusername/pomotrack.git
+cd pomotrack
+npm install
 npm run dev
